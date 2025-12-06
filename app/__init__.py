@@ -1,2 +1,1 @@
-from .  import schemas
-from . import crud
+from app.models import Base, User, Phone

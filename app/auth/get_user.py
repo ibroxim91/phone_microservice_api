@@ -12,7 +12,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.db import  get_db
 from fastapi import HTTPException, status, Depends, Request
 
-from app.config import redis
+from app.config import REDIS_CLIENT as redis
 
 load_dotenv()
 

@@ -15,7 +15,7 @@ services:
     depends_on:
       - redis  
     command: >
-      bash -c "alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8001 --reload"
+      bash -c "alembic revision --autogenerate -m "L" && alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8001 --reload"
 
 volumes:
   postgres_data:
