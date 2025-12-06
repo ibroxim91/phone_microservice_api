@@ -23,7 +23,7 @@
 
 ### 1. Клонирование репозитория
 ```bash
-git clone https://github.com/your-repo/phone-address-service.git
+git clone https://github.com/ibroxim91/phone_microservice_api
 cd phone-address-service
 
 
